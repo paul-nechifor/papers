@@ -22,10 +22,12 @@ class Page
     @loadBtn = $ '#load'
     @progressBar = $ '#progress .progress-bar'
     @titles = $ '#titles'
+    @generateBtn = $ '#generate'
     @decoder = null
 
   setup: ->
     @loadBtn.click @onLoad.bind @
+    @generateBtn.click @onGenerate.bind @
 
   onLoad: ->
     @loadBtn.remove()
@@ -40,5 +42,15 @@ class Page
     @decoder = new decode.Decoder binary
     @decoder.decode()
     @progressBar.parent().remove()
+    $('#controls').show()
+    @onGenerate()
+
+  onGenerate: ->
+    @titles.empty()
+
+    for i in [1 .. 20] by 1
+      sentence = @decoder.joinSequence @decoder.getSequence()
+      $('<p>').appendTo(@titles).text sentence
+    return
 
 main()
