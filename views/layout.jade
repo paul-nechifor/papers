@@ -2,6 +2,15 @@ extends ../intercessor-layout
 
 block content
   .readable
+    p Generate funny computer science paper titles.
+
+    .centered
+      p: button#load.btn.btn-info(type='button') Load Data
+
+    #progress.progress
+      .progress-bar.progress-bar-info
+
+    #titles
 
 block scripts
   script window.staticPath = !{JSON.stringify(app.paths.static)};
