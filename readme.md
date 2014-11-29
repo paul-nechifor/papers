@@ -1,6 +1,7 @@
 # Papers
 
-Generator of funny computer science papers titles by using Markov chains.
+Generator of funny computer science paper titles by using Markov chains. [See it
+live][live] on my web site. This uses my [markov-pack][] package.
 
 ![Cover for Papers.](screenshot.png)
 
@@ -23,3 +24,6 @@ See it at [localhost:3000](http://localhost:3000).
 ## License
 
 MIT
+
+[markov-pack]: https://github.com/paul-nechifor/markov-pack
+[live]: http://nechifor.net/papers
