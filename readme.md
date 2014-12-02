@@ -7,19 +7,12 @@ live][live] on my web site. This uses my [markov-pack][] package.
 
 ## Usage
 
-Install the dependencies:
+Clone this repo. Build and run it by typing:
 
-    npm install
+    npm run up
 
-Build it with `intercessor` in `./build`:
-
-    npm run build
-
-Start it:
-
-    npm run start
-
-See it at [localhost:3000](http://localhost:3000).
+Go to [localhost:3000](http://localhost:3000) to see it. See other [supported
+commands][sc].
 
 ## License
 
@@ -27,3 +20,4 @@ MIT
 
 [markov-pack]: https://github.com/paul-nechifor/markov-pack
 [live]: http://nechifor.net/papers
+[sc]: https://github.com/paul-nechifor/intercessor#supported-commands
