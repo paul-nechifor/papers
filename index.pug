@@ -1,0 +1,39 @@
+doctype html
+html(lang='en')
+  head
+    title= title
+    meta(charset='utf-8')
+    style: :stylus(compress=true)
+      body
+        font-size 1.2em
+        line-height 1.4
+      .header, .middle, .footer
+        margin 0 auto
+        max-width 600px
+      .footer
+        padding-top 1em
+      a
+        text-decoration none
+        &:hover
+          text-decoration underline
+
+  body
+    .header: :markdown-it
+      # [Papers](.)
+
+      Generate funny computer science paper titles.
+
+    .middle
+      p: button#load.btn.btn-info(type='button') Load Data
+      #controls(style='display: none')
+        .centered
+          p: button#generate.btn.btn-info(type='button') Generate New
+
+      // googleoff: all
+      #titles
+      // googleon: all
+
+    .footer: :markdown-it
+      Created by [Paul Nechifor](/).
+
+    script !{js}

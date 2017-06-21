@@ -7,12 +7,9 @@ live][live] on my web site. This uses my [markov-pack][] package.
 
 ## Usage
 
-Clone this repo. Build and run it by typing:
+Start the server and watch for changes:
 
-    npm run up
-
-Go to [localhost:3000](http://localhost:3000) to see it. See other [supported
-commands][sc].
+    npm start
 
 ## License
 
@@ -20,4 +17,3 @@ MIT
 
 [markov-pack]: https://github.com/paul-nechifor/markov-pack
 [live]: http://nechifor.net/papers
-[sc]: https://github.com/paul-nechifor/intercessor#supported-commands
