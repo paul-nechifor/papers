@@ -1,6 +1,6 @@
 {
   "name": "papers",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Generator of funny computer science paper titles by using Markov chains.",
   "devDependencies": {
     "babel-core": "^6.25.0",
