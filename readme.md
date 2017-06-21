@@ -13,7 +13,7 @@ Start the server and watch for changes:
 
 ## License
 
-MIT
+ISC
 
 [markov-pack]: https://github.com/paul-nechifor/markov-pack
 [live]: http://nechifor.net/papers
