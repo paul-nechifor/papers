@@ -1,3 +1,7 @@
+# This repository has been moved to [gitlab.com/paul-nechifor/papers](http://gitlab.com/paul-nechifor/papers).
+
+Old readme:
+
 # Papers
 
 Generator of funny computer science paper titles by using Markov chains. [See it
